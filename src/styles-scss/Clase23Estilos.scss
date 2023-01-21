@@ -1,0 +1,14 @@
+//Variables en sass se declaran con $ y asi poder guardar los colores mas usados en mi aplicacion
+$color-sass: #bf3080;
+//Los dos ultimos numeros le agregan opacidad Ej: 70 = 70%
+$color-sass-80: #bf308070;
+
+.bg-sass{
+    background-color: $color-sass;
+    transition: background-color 0.5s ease-in-out;
+
+    //De esta forma se declara hover en sass
+    &:hover{
+        background-color: $color-sass-80;
+    }
+}
